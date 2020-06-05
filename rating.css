@@ -1,0 +1,33 @@
+*{margin:0;padding:0;}
+ul{ list-style:none;}
+.ratingblock{
+	padding:15px 0;
+	width:100%;
+	margin-left: 20px;
+  margin:0 auto;
+	}
+
+.ratingList{
+	width:100%;
+	padding-right:20px;
+	}
+.ratingtype{
+	font-weight:bold;
+	padding:10px 0;
+	}
+
+.ratingcell li{
+	float:left;
+	width: 10%;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	border:#ddd 1px solid;
+	background:#f1f1f1;
+	cursor:pointer;
+	}
+.ratingcell li.ratingcellcolor{
+	background:#f9b109;
+	color:#fff;
+	border:#ddd 1px solid;
+	}
